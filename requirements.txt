@@ -1,0 +1,14 @@
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asgiref==3.6.0
+bcrypt==4.0.1
+cffi==1.15.1
+Django==4.1.7
+django-cors-headers==3.14.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+pycparser==2.21
+PyJWT==2.6.0
+pytz==2023.2
+sqlparse==0.4.3
+tzdata==2023.2
