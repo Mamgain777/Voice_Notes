@@ -81,7 +81,8 @@ def create(request):
         result = User.objects.filter(username = username)
         if(len(result) == 0):
 
-            new_user = User(username = username,password=password)
+            new_user = User(username = username)
+            new_user.set_password(password)
             new_user.save()
             return Response('sucess')
         else:
